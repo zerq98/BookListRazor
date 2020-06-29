@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace BookListRazor.Models
+namespace BookListData.Models
 {
     public class Book
     {
@@ -16,5 +16,8 @@ namespace BookListRazor.Models
         [Required]
         [MaxLength(50)]
         public string Author { get; set; }
+
+        [MaxLength(20)]
+        public string ISBN { get; set; }
     }
 }

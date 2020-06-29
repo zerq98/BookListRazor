@@ -1,7 +1,7 @@
-﻿using BookListRazor.Models;
+﻿using BookListData.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookListRazor.DataAccess
+namespace BookListData.DataAccess
 {
     public class DataContext : DbContext
     {
